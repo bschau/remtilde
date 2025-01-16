@@ -1,4 +1,4 @@
-## remtilde
+# remtilde
 A small tool to find and delete VIM backup files.
 
 This is the equivalent of the following alias in .bashrc:
@@ -6,7 +6,7 @@ This is the equivalent of the following alias in .bashrc:
   alias remtilde='find . -type f -iname "*~" -exec rm -vf {} \;' 
 ```
 
-### Usage
+## Usage
 ```
   remtilde [OPTIONS] [path1 path2 ... pathX]
   [OPTIONS]
